@@ -1,0 +1,13 @@
+C:\Code\Day2Example2\Day2Example2\bin\Debug\Day2Example2.exe.config
+C:\Code\Day2Example2\Day2Example2\obj\Debug\Day2Example2.csprojResolveAssemblyReference.cache
+C:\Code\Day2Example2\Day2Example2\bin\Debug\Day2Example2.exe
+C:\Code\Day2Example2\Day2Example2\bin\Debug\Day2Example2.pdb
+C:\Code\Day2Example2\Day2Example2\obj\Debug\Day2Example2.exe
+C:\Code\Day2Example2\Day2Example2\obj\Debug\Day2Example2.pdb
+C:\Users\LiadP\Dropbox\קורס מהות\Course C#\Day2Example2\Day2Example2\bin\Debug\Day2Example2.exe.config
+C:\Users\LiadP\Dropbox\קורס מהות\Course C#\Day2Example2\Day2Example2\obj\Debug\Day2Example2.exe
+C:\Users\LiadP\Dropbox\קורס מהות\Course C#\Day2Example2\Day2Example2\obj\Debug\Day2Example2.pdb
+C:\Users\LiadP\Dropbox\קורס מהות\Course C#\Day2Example2\Day2Example2\obj\Debug\Day2Example2.csproj.CoreCompileInputs.cache
+C:\Users\LiadP\Dropbox\קורס מהות\Course C#\Day2Example2\Day2Example2\bin\Debug\Day2Example2.exe
+C:\Users\LiadP\Dropbox\קורס מהות\Course C#\Day2Example2\Day2Example2\bin\Debug\Day2Example2.pdb
+C:\Users\LiadP\Dropbox\קורס מהות\Course C#\Day2Example2\Day2Example2\obj\Debug\Day2Example2.csprojAssemblyReference.cache
