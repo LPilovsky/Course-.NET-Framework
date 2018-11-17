@@ -27,7 +27,9 @@ namespace Day2Example2
                     }
                     else
                     {
-                        Console.WriteLine($"You have exceeded the maximum color swap (Max change color is:{Constants.MAX_CHANGE_COLOR}, stay with the last color - {value})");
+                        Console.WriteLine($"You have exceeded the maximum color swap " +
+                                          $"(Max change color is:{Constants.MAX_CHANGE_COLOR}," +
+                                          $" stay with the last color - {value})");
                     }
                 }
             }
