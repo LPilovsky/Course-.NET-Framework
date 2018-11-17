@@ -24,16 +24,23 @@ namespace Day2Example2
                     Console.WriteLine($"carList[0] and carList[{i}] have different features");
             }
 
-            Console.WriteLine($"Total number of cars:{Car.cntOfCars}");
+            Console.WriteLine($"Total cars produced:{Car.totalCarsProduced}");
 
             carList[0].Color = Constants.GRAY;
             carList[0].Color = Constants.BLUE;
             carList[0].Color = Constants.GRAY;
 
             if (carList.Contains(new Car(Constants.GRAY, 2010, "VOLVO_S60")))
-            {
                 Console.WriteLine("The car with the color gray, year 2010 and the model volvo s60 is exist in cars array ");
-            }
+
+            Car carWithDefaultColor = new Car("Orange", 1990, "Ford focus");
+            Car carWithGrayColor = new Car(Constants.GRAY, 1990, "Ford focus");
+
+            if (carWithDefaultColor.Equals(carWithGrayColor))
+                Console.WriteLine("Default color is working");
+            else
+                Console.WriteLine("Default color is not working");
+
         }
     }
 }

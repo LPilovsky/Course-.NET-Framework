@@ -8,6 +8,7 @@ namespace Day2Example2
 {
     class Constants
     {
+        public static string DEFAULT_COLOR = "Gray";
         public static  string BLUE = "Blue";
         public static string RED = "Red";
         public static string GRAY = "Gray";

@@ -8,9 +8,17 @@ namespace Day2Example2
 {
     class Car
     {
-        public static int cntOfCars = 0;
+        public Car(string color, int year, string model)
+        {
+            totalCarsProduced++;
+            this.Color = color;
+            this.Year = year;
+            this.Model = model;
+        }
 
-        private string color = "NC";
+        public static int totalCarsProduced = 0;
+
+        private string color = Constants.DEFAULT_COLOR;
         private int changeColor = 0;
 
         public string Color
@@ -43,14 +51,6 @@ namespace Day2Example2
         public int Year { set; get; }
      
         public string Model { set; get; }
-
-        public Car(string color, int year, string model)
-        {
-            cntOfCars++;
-            this.Color = color;
-            this.Year = year;
-            this.Model = model;
-        }
 
         // override object.Equals
         public override bool Equals(object obj)
