@@ -1,0 +1,6 @@
+C:\Code\Day4Example2\Day4Example2\bin\Debug\Day4Example2.exe.config
+C:\Code\Day4Example2\Day4Example2\bin\Debug\Day4Example2.exe
+C:\Code\Day4Example2\Day4Example2\bin\Debug\Day4Example2.pdb
+C:\Code\Day4Example2\Day4Example2\obj\Debug\Day4Example2.csprojResolveAssemblyReference.cache
+C:\Code\Day4Example2\Day4Example2\obj\Debug\Day4Example2.exe
+C:\Code\Day4Example2\Day4Example2\obj\Debug\Day4Example2.pdb
