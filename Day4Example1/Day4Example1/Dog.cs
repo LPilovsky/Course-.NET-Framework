@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day4Example1
 {
-    class Dog : Animel
+    class Dog : Animal
     {
         public Dog(ConsoleColor color) : base(color)
         {
@@ -34,7 +34,7 @@ namespace Day4Example1
                 return 8;
             }
         }
-        public override string NameOfAnimel
+        public override string Name
         {
             get
             {

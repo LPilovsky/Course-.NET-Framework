@@ -10,18 +10,18 @@ namespace Day4Example1
     {
         static void Main(string[] args)
         {
-            Animel dog = new Dog(ConsoleColor.Yellow);
-            Animel cat = new Cat(ConsoleColor.White);
-            Animel bird = new Bird(ConsoleColor.Gray);
+            Animal dog = new Dog(ConsoleColor.Yellow);
+            Animal cat = new Cat(ConsoleColor.White);
+            Animal bird = new Bird(ConsoleColor.Gray);
 
-            List<Animel> animelList = new List<Animel>();
+            List<Animal> animelList = new List<Animal>();
 
             animelList.Add(dog);
             animelList.Add(cat);
             animelList.Add(bird);
 
 
-            foreach (Animel item in animelList)
+            foreach (Animal item in animelList)
             {
                 item.Draw();
                 item.Draw(30);
