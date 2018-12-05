@@ -8,6 +8,21 @@ namespace Day4Example2
 {
     class HRSystem
     {
-        List<HR> divisionList;
+        private List<HR> hrList = new List<HR>();
+        private List<Management> managementList = new List<Management>();
+        private List<RND> rndList = new List<RND>();
+
+        public void AddHREmployee(HR hr)
+        {
+            hrList.Add(hr);
+        }
+        public void AddManagementEmployee(Management management)
+        {
+            managementList.Add(management);
+        }
+        public void AddRNDEmployee(RND rnd)
+        {
+            rndList.Add(rnd);
+        }
     }
 }

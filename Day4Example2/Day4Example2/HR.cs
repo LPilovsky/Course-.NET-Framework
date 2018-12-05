@@ -8,25 +8,11 @@ namespace Day4Example2
 {
     class HR : Employee
     {
-        public HR(string name, string id, int numYearsOfWorking) : base(name, id, numYearsOfWorking){}
+        static int count = 0;
+        public HR(string name, string id) : base(name, id){ count++; }
 
-        List<Employee> employees;
+        public override int ExtraHours => 0;
 
-        protected override int ExtraSalary
-        {
-            get
-            {
-                return 0; 
-            }
-        }
-
-        public override int ExtraHours
-        {
-            get
-            {
-                return 0;
-            }
-        }
-
+        protected override int ExtraSalary => 0;
     }
 }

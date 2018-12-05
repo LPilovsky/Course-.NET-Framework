@@ -10,9 +10,16 @@ namespace Day4Example2
     {
         static void Main(string[] args)
         {
-            List<HR> hrEmployees = new List<HR>();
-            hrEmployees.Add(new HR("Avi","12345",2));
-            hrEmployees.Add(new HR("Yaron","45445",4));
+            HRSystem hRSystem = new HRSystem();
+
+            hRSystem.AddHREmployee(new HR("Hila","12345"));
+            hRSystem.AddHREmployee(new HR("Liat","45445"));
+
+            hRSystem.AddManagementEmployee(new Management("Avi", "5465",4));
+            hRSystem.AddManagementEmployee(new Management("Moshe", "68468",3));
+
+            hRSystem.AddRNDEmployee(new RND("Liad", "5151551", 4,30));
+            hRSystem.AddRNDEmployee(new RND("Yoni", "68468", 3,10));
 
         }
     }

@@ -6,25 +6,22 @@ using System.Threading.Tasks;
 
 namespace Day4Example2
 {
-    class RND : Employee
+    class Management : Employee
     {
         static int count = 0;
-        public RND(string name, string id, int numYearsOfWorking, int numOfExtraWork) : base(name, id, numYearsOfWorking, numOfExtraWork) { count++; }
+        public Management(string name, string id, int numYearsOfWorking) : base(name, id, numYearsOfWorking) { count++; }
 
-        public override int ExtraHours
-        {
-            get
-            {
-                return (numOfExtraWork * 17);
-            }
-        }
+        public override int ExtraHours => 0;
 
         protected override int ExtraSalary
         {
             get
             {
+                if (numYearsOfWorking > 3)
+                    return 12;
                 return 0;
             }
         }
     }
+
 }

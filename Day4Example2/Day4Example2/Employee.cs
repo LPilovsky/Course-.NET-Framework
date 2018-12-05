@@ -8,7 +8,7 @@ namespace Day4Example2
 {
     public abstract class Employee
     {
-        public Employee(string name, string id, int numYearsOfWorking, int numOfExtraWork = 0)
+        public Employee(string name, string id, int numYearsOfWorking = 0, int numOfExtraWork = 0)
         {
             this.name = name;
             this.id = id;
